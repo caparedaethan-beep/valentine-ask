@@ -407,7 +407,7 @@ body {
     position: absolute;
     /* Format: direction: value; */
     bottom: -4200px; 
-    right: 800px;
+    right: 700px;
     
     width: 900px; /* Control size here */
     height: auto;
@@ -423,7 +423,7 @@ body {
     position: absolute;
     /* Format: direction: value; */
     bottom: -5000px; 
-    right: 85px;
+    right: 25px;
     
     width: 1000px; /* Control size here */
     height: auto;
@@ -439,7 +439,7 @@ body {
     position: absolute;
     /* Format: direction: value; */
     bottom: -5800px;  
-    right: 800px;
+    right: 700px;
     
     width: 1000px; /* Control size here */
     height: auto;
