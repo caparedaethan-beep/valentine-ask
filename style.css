@@ -556,38 +556,36 @@ body {
 
 .card-image-20 {
     position: absolute;
-    /* Format: direction: value; */
     bottom: -9100px;  
     left: 19%;
-    
-    width: 500px; /* Control size here */
+    width: 500px; 
     height: auto;
-
     filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.3));
-    
-    z-index: 11; /* Ensures it stays above the envelope flaps */
-
- 
+    z-index: 11;
     transition: transform 0.3s ease;
+    cursor: pointer; /* Added */
 }
 
 .card-image-21 {
     position: absolute;
-    /* Format: direction: value; */
     bottom: -9060px;  
     left: 50%;
-    
-    width: 410px; /* Control size here */
+    width: 410px; 
     height: auto;
-
     filter: drop-shadow(5px 2px 3px rgba(0, 0, 0, 0.3));
-    
-    z-index: 11; /* Ensures it stays above the envelope flaps */
-
- 
-    transition: transform 0.3s ease;
+    z-index: 11;
+    transition: transform 0.3s ease; /* Added smooth movement */
+    cursor: pointer; /* Added */
 }
 
+/* Mobile responsive adjustments */
+@media (max-width: 768px) {
+    .card-image-20, .card-image-21 {
+        width: 40vw; /* Scales down on phones */
+    }
+    .card-image-20 { left: 5%; }
+    .card-image-21 { left: 50%; }
+}
 
 
 
